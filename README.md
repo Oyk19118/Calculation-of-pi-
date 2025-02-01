@@ -2,17 +2,6 @@
 
 This project provides a dynamic and interactive visualization of estimating the value of π (Pi) using the Monte Carlo method. The user can specify the number of random points to be used for the estimation, and the animation will visually demonstrate the process in real-time, showing which points fall inside and outside of the unit circle.
 
-## Table of Contents
-
-1. [Introduction](#introduction)
-2. [Features](#features)
-3. [How It Works](#how-it-works)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Visualization Details](#visualization-details)
-7. [Contributing](#contributing)
-8. [License](#license)
-
 ## Introduction
 
 Monte Carlo methods are a class of computational algorithms that rely on repeated random sampling to obtain numerical results. In this project, the Monte Carlo method is used to estimate the value of π by generating random points in a square and determining how many fall inside a unit circle inscribed within the square. This approach is simple yet powerful, and it showcases the effectiveness of randomness in approximation.
@@ -47,11 +36,3 @@ The simulation visualizes this process, updating the plot dynamically as points 
 - **NumPy** (for numerical calculations)
 - **Matplotlib** (for visualization)
 - **tqdm** (for progress bar visualization)
-
-### Setup
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/monte-carlo-pi-estimation.git
-   cd monte-carlo-pi-estimation
